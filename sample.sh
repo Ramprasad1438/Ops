@@ -3,3 +3,5 @@ ls
 hostname
 echo "changesdone in git"
 echo "hi"
+pwd
+echo " this is jenkins"

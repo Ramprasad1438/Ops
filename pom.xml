@@ -1,0 +1,13 @@
+This goes into your <repositories>-section of your pom.xml:
+        <repository>
+          <id>nexus</id>
+          <name>Nexus Repository</name>
+          <url>https://oss.sonatype.org/content/repositories/releases</url>
+        </repository>
+
+This goes into your <dependencies>-section:
+		<dependency>
+			<groupId>org.bowlerframework</groupId>
+			<artifactId>core_2.9.1</artifactId>
+			<version>0.5.1</version>
+		</dependency>
